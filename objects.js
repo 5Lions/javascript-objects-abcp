@@ -13,7 +13,7 @@ function updatePlaylist(playlist, artist, song) {
 console.log(updatePlaylist(playlist, 'Phil Ochs', "Here's to the State of Mississippi"));
 
 function removeFromPlaylist(playlist, artist) {
-  delete playlist.artist;
+  delete playlist[artist];
   return playlist;
 }
-console.log(removeFromPlaylist(playlist, 'Phil Ochs'));
+console.log(removeFromPlaylist(playlist, 'Slowdive'));
