@@ -1,1 +1,3 @@
-var playlist = {};
+var playlist = {
+  TheVerve : 'Sonnet'
+};
